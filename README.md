@@ -5,7 +5,6 @@ This repository contains the Jupyter notebooks with lecture notes and examples f
 Further information about the Rules of this course can be found in the [`Rulesandregulations.pdf`](./1/Rulesandregulations.pdf) file in the first lecture directory.
 
 ## Short Summary
-
 > [!Note]
 > You can also run this repository using MyBinder:  
 > [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgepner/Computer-Science-1.git/master)
@@ -23,11 +22,11 @@ To find out about the required tools and how to install them, see the [Requireme
 ## Table of Contents
 
 - [Requirements](#requirements)
-    - [Tools for Compiling C / C++ Code](#tools-for-compiling-c--c-code)
+    - [Tools for Compiling C Code](#tools-for-compiling-c-code)
     - [Jupyter Notebooks](#jupyter-notebooks)
-        - [Windows](#windows-1)
-        - [macOS](#macos-1)
-        - [Linux](#linux-1)
+        - [Windows](#windows)
+        - [macOS](#macos)
+        - [Linux](#linux)
 - [Repository Structure](#repository-structure)
 - [License](#license)
 - [Further reading](#further-reading)
@@ -45,7 +44,7 @@ To run the code in this repository, you need to have the following tools install
     - `jupyter`
     - content of the `requirements.txt` file
 
-### Tools for Compiling C / C++ Code
+### Tools for Compiling C Code
 
 > [!Note]
 > Further information on how to compile C / C++ code is available in the [first lectures slides](./1/lec1.pdf).
@@ -56,7 +55,7 @@ To build the `.c` and `.h` files, you can use the tool `make`.
 
 On **Windows**, you will need to install `make` and `gcc` from the [MinGW](https://osdn.net/projects/mingw/) project.
 
-On **macOS**, you can install `make`, `gcc` and `g++` with the package manager `brew`. If you don't have `brew`, installed you can find the installation instructions on the [official website](https://brew.sh/).  
+On **macOS**, you can install `make`, `gcc` and `g++` with the package manager `brew`. If you don't have `brew` installed, you can find the installation instructions on the [official website](https://brew.sh/).  
 Afterwards, you can install `make` and `gcc` by running the following commands in the terminal:
 ```ShellSession
 brew install make
@@ -93,11 +92,11 @@ Once you have everything installed, you can run the Jupyter notebooks using the 
 Jupyter notebooks are a great way to write and share code. They are interactive and can text, visualizations and even the source code itself.  
 To install the python packages required to run the Jupyter notebooks, we are using a virtual environment. More on this under [Further Reading](#further-reading).
 
-To get started with using jupyter notes, follow the instructions suited for your operating system.
+To get started with using Jupyter notes, follow the instructions suited for your operating system.
 
 #### Windows
 
-To run the Jupyter notebooks you need to have Python installed. If you have Windows, it is best to download Python from the [official website](https://www.python.org/downloads/). 
+To run the Jupyter notebooks, you need to have Python installed. If you have Windows, it is best to download Python from the [official website](https://www.python.org/downloads/). 
 After installing Python, you can install the required packages by running the following commands in the terminal:
 
 ```powershell
@@ -112,7 +111,7 @@ You can then run `jupyter notebook` in the terminal to start the Jupyter noteboo
 
 #### macOS
 
-On a Mac you can install Python with the package manager `brew`. If you don't have `brew` installed you can find the installation instructions on the [official website](https://brew.sh/).
+On a Mac, you can install Python with the package manager `brew`. If you don't have `brew` installed, you can find the installation instructions on the [official website](https://brew.sh/).
 
 After installing `brew` you can install Python by running the following command in the terminal:
 
@@ -130,7 +129,7 @@ pip install -r requirements.txt
 
 #### Linux
 
-On Linux you can install Python with the package manager of your distribution. 
+On Linux, you can install Python with the package manager of your distribution. 
 
 <details>
 <summary>Ubuntu / Mint </summary>
@@ -206,4 +205,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 - [C Programming Language](https://en.wikipedia.org/wiki/C_(programming_language))
 - [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+
 
